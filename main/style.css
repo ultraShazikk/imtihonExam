@@ -103,7 +103,7 @@ button {
     margin-bottom: 15px;
 }
 
-ul button{
+ul button {
     background-color: black;
     border: none;
     padding: 8px 24px;
@@ -114,7 +114,9 @@ ul button{
 
 ul button:hover {
     /* box-shadow: rgba(0, 255, 0) 3px 1px 10px 5px; */
-    box-shadow: rgba(0, 255, 0) 10px 15px 10px -50px inset, rgba(0, 255, 0) 0px 8px 25px -8px inset,  rgba(0, 255, 0) 3px 1px 10px 5px;;
+    box-shadow: rgba(0, 255, 0) 10px 15px 10px -50px inset,
+    rgba(0, 255, 0) 0px 8px 25px -8px inset,
+    rgba(0, 255, 0) 3px 1px 10px 5px;
     color: rgb(0, 255, 0);
     transition: 0.5s;
 }
@@ -127,6 +129,11 @@ ul button:hover {
     background-color: #000000;
     color: #FFF;
     border: none;
+    margin-top: 20px;
+}
+
+button {
+    cursor: pointer;
 }
 
 .box button:hover {

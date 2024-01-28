@@ -55,7 +55,6 @@ async function nimadir2(userId) {
   const bir2 = await response.json();
 
   post = bir2.filter((post) => post.userId == userId);
-
   imtihonn(post, ellist2);
 }
 
@@ -64,11 +63,12 @@ ellist.addEventListener('click', (evt) => {
     ellist2.innerHTML = null;
     userId = evt.target.dataset.userId;
     nimadir2(userId);
-    ellist3.innerHTML = null
   }
 });
 
+
 ////////// K O M M E N T //////////
+
 
 function imtihonnn(array, node) {
   node.innerHTML = null;
@@ -97,5 +97,6 @@ ellist2.addEventListener("click", (evt) => {
   if (comButton) {
     const isButton = evt.target.dataset.userId;
     nimadir6(isButton);
+    ellist3.innerHTML = null
   }
 });
