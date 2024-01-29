@@ -63,6 +63,7 @@ ellist.addEventListener('click', (evt) => {
     ellist2.innerHTML = null;
     userId = evt.target.dataset.userId;
     nimadir2(userId);
+    ellist3.innerHTML = null
   }
 });
 
